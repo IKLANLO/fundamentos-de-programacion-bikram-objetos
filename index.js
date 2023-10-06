@@ -52,3 +52,52 @@ Impresora.imprimiendo = {
     numPaginas: 1,
 }
 
+
+Noticia = {
+    titular: 'Noticia',
+    cuerpo: 'cuerpo de noticia',
+}
+
+Persona = {
+    nombre: 'Iker',
+    apellidos: 'Larreategui',
+    edad: '35',
+}
+
+Avion = {
+    numPasajeros:600,
+    despegar: function(){
+        console.log('despegando')
+    },
+    volar: function(){
+        console.log('llegando al destino')
+    },
+    aterrizar: function(){
+        console.log('aterrizando')
+    },
+}
+Paquete = {
+    contenido: ['camara'],
+}
+Pais = {
+    numHabitantes: 3,
+    continente: 'Europa',
+    gentilicio: 'tresense',
+}
+const codError = O_Error.codigo
+const integrantes = Grupo.integrantes
+const  nivelesTinta = Impresora.tinta
+const pixeles = Pantalla.pixeles
+const especificaciones = Movil['especificaciones']
+Grupo.numIntegrantes = 5
+Pantalla.dimensiones ="1920x1080"
+
+if (Led.encendido === true) {
+    Led.encendido = false
+} else{
+    Led.encendido = true
+}
+
+
+Movil.temperatura ='20º'
+
